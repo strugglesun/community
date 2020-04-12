@@ -1,0 +1,68 @@
+.topic{
+  margin:0 15%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  .topic-header{
+    border-bottom: 1px solid #ccc;
+    h3{
+      font-size: 26px;
+      font-weight: bold;
+    }
+  }
+  .topic-content{
+    h3{
+      font-size: 24.5px;
+    }
+    strong{
+      font-weight: 700;
+    }
+    img{
+      height: auto;
+      max-width: 100%;
+      vertical-align: middle;
+      border: 0;
+    }
+    h4{
+      font-size: 17.5px;
+      font-family: inherit;
+      font-weight: 700;
+      line-height: 20px;
+      color: inherit;
+      text-rendering: optimizelegibility;
+    }
+    p{
+      word-break: break-word;
+      font-size: 15px;
+    line-height: 1.7em;
+    overflow: auto;
+    }
+    ul{
+      padding: 0;
+      margin: 0 0 10px 25px;
+      li{
+        line-height: 2em;
+      }
+    }
+  }
+  .commit-box{
+    img{
+      width: 40px;
+      height: 40px;
+    }
+    li{
+      padding:15px 10px;
+      border-bottom: 1px solid #ccc;
+      list-style: none;
+      display: flex;
+      justify-content: space-between;
+    }
+    span{
+      margin-left: 5px;
+    }
+    span:hover{
+      color:#111
+    }
+  }
+  
+}

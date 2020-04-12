@@ -1,0 +1,22 @@
+.list {
+  margin-bottom: 10px;
+  height: 40px;
+  border-bottom:1px solid #ccc;
+  list-style: none;
+  img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+  a{
+    color:#000;
+  }
+}
+.list:hover{
+  background-color: #ccc;
+  a{
+    text-decoration: underline;
+    color:#000;
+
+  }
+}

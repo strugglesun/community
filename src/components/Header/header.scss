@@ -1,0 +1,31 @@
+Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+Header img{
+  width: 64px;
+  height: 64px;
+}
+Header input{
+  height: 32px;
+  outline: 0;
+  border: 0;
+}
+Header span{
+  margin-left: 5px;
+  font-size: 14px;
+  color:#fff;
+  cursor: pointer;
+ 
+}
+Header .login{
+  width: 260px;
+  display: flex;
+  align-items: center;
+}
+.ant-layout-header{
+  padding:0 15%;
+}
+
+
