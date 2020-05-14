@@ -1,16 +1,31 @@
 .topic{
-  margin:0 15%;
-  padding: 10px;
+  margin:0 15% 30px;
+  // padding: 10px;
   box-sizing: border-box;
-  background-color: #fff;
   .topic-header{
+  background-color: #fff;
+    padding: 10px 0;
+    padding-left: 20px;
     border-bottom: 1px solid #ccc;
     h3{
       font-size: 26px;
       font-weight: bold;
     }
+    
+    .active{
+      font-size: 16px;
+      margin-right: 5px;
+      font-weight: bold;
+    }
+    span{
+      font-weight: normal;
+    }
   }
   .topic-content{
+  background-color: #fff;
+    // border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+    padding: 20px 0 0 20px;
     h3{
       font-size: 24.5px;
     }
@@ -46,6 +61,7 @@
     }
   }
   .commit-box{
+  background-color: #fff;
     img{
       width: 40px;
       height: 40px;
@@ -54,14 +70,27 @@
       padding:15px 10px;
       border-bottom: 1px solid #ccc;
       list-style: none;
-      display: flex;
-      justify-content: space-between;
+      
+      .commit-box-top{
+        display: flex;
+        justify-content: space-between;
+        .commit-content{
+          margin: 20px 0 20px 40px;
+        }
+      }
+      .commit-box-footer{
+        margin-left: 40px;
+      }
     }
     span{
       margin-left: 5px;
     }
-    span:hover{
-      color:#111
+    .commit-footer{
+      padding-left: 40px;
+      margin-top: 20px;
+      h3{
+        font-weight: bold;
+      }
     }
   }
   

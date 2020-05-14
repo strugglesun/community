@@ -78,7 +78,8 @@ class Home extends Component {
             </Sider>
             <Content style={{ padding: '24px', minHeight: 280, background: '#fff' }}>
               {topic.length ? <div><ul style={{ padding: 0 }}>{
-                topic.map(item => <List last_reply={item.last_reply_at} loginname={item.author.loginname} id={item.id} avatar={item.author.avatar_url} title={item.title} key={item.id}></List>)
+                topic.map(item => <List last_reply={item.last_reply_at} loginname={item.author.loginname} id={item.id} avatar={item.author.avatar_url} title={item.title}
+                  visit_count={item.visit_count} reply_count={item.reply_count} key={item.id}></List>)
               }</ul> <Pagination defaultCurrent={1} total={number} pageSize={20} onChange={this.changePage} /></div> : <Skeleton active />}
 
             </Content>
@@ -88,12 +89,13 @@ class Home extends Component {
     );
   }
   getTypes = (type = 'all', page = 1, limit = 20) => {
-    axios.get(`https://www.vue-js.com/api/v1/topics?tab=${type}&page=${page}&limit=${limit}`).then(res =>
-      // console.log(res.data.data)
+    axios.get(`https://www.vue-js.com/api/v1/topics?tab=${type}&page=${page}&limit=${limit}`).then(res => {
+      console.log(res.data.data);
       this.setState({
         topic: res.data.data
 
       })
+    }
     )
   }
   changePage = (page) => {

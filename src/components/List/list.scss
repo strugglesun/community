@@ -1,8 +1,29 @@
 .list {
   margin-bottom: 10px;
   height: 40px;
+  line-height: 40px;
   border-bottom:1px solid #ccc;
+  // vertical-align: middle;
+  display: flex;
+  justify-content: space-between;
   list-style: none;
+  overflow: hidden;
+  .content-left{
+    font-size: 16px;
+
+  }
+  .content-right {
+    display: flex;
+  justify-content: space-between;
+    width: 180px;
+    .title{
+      width: 60px;
+    }
+    span{
+      // margin-right: 10px;
+      // width: 100px;
+    }
+  }
   img{
     width: 40px;
     height: 40px;
@@ -16,7 +37,7 @@
   background-color: #ccc;
   a{
     text-decoration: underline;
-    color:#000;
+    color:rgb(78, 24, 226);
 
   }
 }
