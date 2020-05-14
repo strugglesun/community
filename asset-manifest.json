@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-shequ-demo/static/css/main.2fa2559e.chunk.css",
+    "main.js": "/react-shequ-demo/static/js/main.1b245c29.chunk.js",
+    "main.js.map": "/react-shequ-demo/static/js/main.1b245c29.chunk.js.map",
+    "runtime-main.js": "/react-shequ-demo/static/js/runtime-main.37b8f99b.js",
+    "runtime-main.js.map": "/react-shequ-demo/static/js/runtime-main.37b8f99b.js.map",
+    "static/css/2.d788185a.chunk.css": "/react-shequ-demo/static/css/2.d788185a.chunk.css",
+    "static/js/2.4835711f.chunk.js": "/react-shequ-demo/static/js/2.4835711f.chunk.js",
+    "static/js/2.4835711f.chunk.js.map": "/react-shequ-demo/static/js/2.4835711f.chunk.js.map",
+    "index.html": "/react-shequ-demo/index.html",
+    "precache-manifest.8db3f481cf5ab5466a562ee7e00971bd.js": "/react-shequ-demo/precache-manifest.8db3f481cf5ab5466a562ee7e00971bd.js",
+    "service-worker.js": "/react-shequ-demo/service-worker.js",
+    "static/css/2.d788185a.chunk.css.map": "/react-shequ-demo/static/css/2.d788185a.chunk.css.map",
+    "static/css/main.2fa2559e.chunk.css.map": "/react-shequ-demo/static/css/main.2fa2559e.chunk.css.map",
+    "static/js/2.4835711f.chunk.js.LICENSE.txt": "/react-shequ-demo/static/js/2.4835711f.chunk.js.LICENSE.txt",
+    "static/media/logo.jpg..png": "/react-shequ-demo/static/media/logo.jpg..67c8e1eb.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.37b8f99b.js",
+    "static/css/2.d788185a.chunk.css",
+    "static/js/2.4835711f.chunk.js",
+    "static/css/main.2fa2559e.chunk.css",
+    "static/js/main.1b245c29.chunk.js"
+  ]
+}
