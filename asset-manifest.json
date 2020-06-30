@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-shequ-demo/static/css/main.86501bbf.chunk.css",
-    "main.js": "/react-shequ-demo/static/js/main.85731a2b.chunk.js",
-    "main.js.map": "/react-shequ-demo/static/js/main.85731a2b.chunk.js.map",
+    "main.js": "/react-shequ-demo/static/js/main.edee2de8.chunk.js",
+    "main.js.map": "/react-shequ-demo/static/js/main.edee2de8.chunk.js.map",
     "runtime-main.js": "/react-shequ-demo/static/js/runtime-main.37b8f99b.js",
     "runtime-main.js.map": "/react-shequ-demo/static/js/runtime-main.37b8f99b.js.map",
     "static/css/2.d788185a.chunk.css": "/react-shequ-demo/static/css/2.d788185a.chunk.css",
     "static/js/2.d6ec027f.chunk.js": "/react-shequ-demo/static/js/2.d6ec027f.chunk.js",
     "static/js/2.d6ec027f.chunk.js.map": "/react-shequ-demo/static/js/2.d6ec027f.chunk.js.map",
     "index.html": "/react-shequ-demo/index.html",
-    "precache-manifest.6454d3e19575206f73baf5a0d6c02eb6.js": "/react-shequ-demo/precache-manifest.6454d3e19575206f73baf5a0d6c02eb6.js",
+    "precache-manifest.166199e31cd280f7b287aea915004ffa.js": "/react-shequ-demo/precache-manifest.166199e31cd280f7b287aea915004ffa.js",
     "service-worker.js": "/react-shequ-demo/service-worker.js",
     "static/css/2.d788185a.chunk.css.map": "/react-shequ-demo/static/css/2.d788185a.chunk.css.map",
     "static/css/main.86501bbf.chunk.css.map": "/react-shequ-demo/static/css/main.86501bbf.chunk.css.map",
@@ -21,6 +21,6 @@
     "static/css/2.d788185a.chunk.css",
     "static/js/2.d6ec027f.chunk.js",
     "static/css/main.86501bbf.chunk.css",
-    "static/js/main.85731a2b.chunk.js"
+    "static/js/main.edee2de8.chunk.js"
   ]
 }

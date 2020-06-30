@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "9c909295aeeddc61f0283ca9a6ebeb80",
+    "revision": "618ba2a8565a906ac7db8bd015aad844",
     "url": "/react-shequ-demo/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-shequ-demo/static/css/2.d788185a.chunk.css"
   },
   {
-    "revision": "07ffa5e4c5bfaf559e58",
+    "revision": "19c9df8ce0382d2c8029",
     "url": "/react-shequ-demo/static/css/main.86501bbf.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/react-shequ-demo/static/js/2.d6ec027f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "07ffa5e4c5bfaf559e58",
-    "url": "/react-shequ-demo/static/js/main.85731a2b.chunk.js"
+    "revision": "19c9df8ce0382d2c8029",
+    "url": "/react-shequ-demo/static/js/main.edee2de8.chunk.js"
   },
   {
     "revision": "b0b1ebe3a2532e848bc4",
